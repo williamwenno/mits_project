@@ -11,4 +11,8 @@ class C_user extends CI_Controller {
 	function index() {
 		$this->load->view('user/home_page');
 	}
+
+	function detail() {
+		$this->load->view('user/detail');
+	}
 }

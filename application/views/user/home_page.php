@@ -52,7 +52,7 @@
 
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
-                    <a href="shop.html">
+                    <a href="<?php echo base_url('index.php/C_user/detail') ?>">
                         <img src="<?php echo base_url('assets/amado/') ?>img/bg-img/bg2/1.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">

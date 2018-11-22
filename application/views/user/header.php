@@ -18,6 +18,16 @@
     </div>
 </div>
 <!-- Search Wrapper Area End --><header class="header-area clearfix">
+     <div class="mobile-nav">
+            <!-- Navbar Brand -->
+            <div class="amado-navbar-brand">
+                <a href="<?php echo base_url('index.php/C_user') ?>"><img src="<?php echo base_url('assets/amado/') ?>img/core-img/logo.png" alt=""></a>
+            </div>
+            <!-- Navbar Toggler -->
+            <div class="amado-navbar-toggler">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
     <!-- Close Icon -->
     <div class="nav-close">
         <i class="fa fa-close" aria-hidden="true"></i>
@@ -32,7 +42,6 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="product-details.html">Product</a></li>
-            <li><a href="cart.html">Cart</a></li>
             <li><a href="checkout.html">Checkout</a></li>
         </ul>
     </nav>
